@@ -31,6 +31,9 @@
     --fonte-texto: 'Crimson Pro', serif;
     --fonte-texto2: 'Source Serif 4', serif;
 }
+body{
+    background-color: #80808040;
+}
 
 #containerheader{
     background-color: var(--cor0);
@@ -119,6 +122,7 @@
 /* Main */
 .container-artigos {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
@@ -131,7 +135,7 @@
 
   .anuncios {
     flex: 0.7;
-    background-color: #f2f2f2;
+    background-color:white;
     padding: 10px;
     box-sizing: border-box;
   }
@@ -139,4 +143,16 @@
   .anuncios img {
     max-width: 100%;
     height: auto;
+  }
+
+  /* Adicione uma media query para layout responsivo */
+  @media (max-width: 768px) {
+    .container-artigos {
+      flex-direction: column;
+    }
+
+    .artigos {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
