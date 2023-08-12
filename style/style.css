@@ -115,3 +115,28 @@
     
     
 }
+
+/* Main */
+.container-artigos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .artigos {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .anuncios {
+    flex: 0.7;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .anuncios img {
+    max-width: 100%;
+    height: auto;
+  }
