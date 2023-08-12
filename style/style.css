@@ -50,7 +50,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 4rem;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 .nav-list{
     display: flex;
