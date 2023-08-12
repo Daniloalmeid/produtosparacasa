@@ -157,7 +157,24 @@ body{
 
     .artigos,
     .anuncios {
-      width: 100%;
+      width: 90%;
       margin-right: 0;
     }
   }
+  .artigos{
+    padding: 10px
+  }
+
+  .artigos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+
+   
+
+  
