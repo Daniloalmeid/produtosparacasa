@@ -19,9 +19,11 @@
     
 }
 :root{
-    --cor0: #f9dc5c;
-    --cor1: #080f0f;
-    --cor2: #f9c22e;
+    --cor0: #e8f7ee;
+    --cor1: #419d78;
+    --cor2: #c49799;
+    --cor3: #4d7ea8;
+    --cor4: #8b6220;
    
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: "patua one", cursive;
@@ -31,7 +33,7 @@
 }
 
 #containerheader{
-    background-color: black;
+    background-color: var(--cor0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +50,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 4rem;
-    background-color: var(--cor0);
+    background-color: var(--cor2);
 }
 .nav-list{
     display: flex;
