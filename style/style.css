@@ -11,6 +11,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&display=swap');
+
+
+
 
 *{
     padding: 0px;
@@ -30,6 +34,8 @@
     --fonte-redes: 'Sofia', cursive;
     --fonte-texto: 'Crimson Pro', serif;
     --fonte-texto2: 'Source Serif 4', serif;
+    --fonte-curva: 'Lobster', cursive;
+    --fonte-curva2: 'Patua One', cursive;
 }
 body{
     background-color: #80808040;
