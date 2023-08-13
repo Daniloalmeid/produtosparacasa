@@ -167,9 +167,12 @@ body{
       margin-right: 0;
     }
   }
-  .artigos{
+.artigos{
     padding: 10px
-  }
+    
+    
+}
+
 
   .artigos2{
     display: flex;
@@ -179,8 +182,30 @@ body{
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  .amazon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+   
+  }
+  .artigos h1{
+    font-family: var(--fonte-curva);
+    padding: 15px;
   }
 
+  .artigos p{
+    font-family: var(--fonte-texto);
+    padding: 15px;
+  }
    
 
   
