@@ -40,6 +40,17 @@
 body{
     background-color: #80808040;
 }
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+}
+main{
+    padding-top: 200px;
+}
+
 
 #containerheader{
     background-color: var(--cor0);
@@ -200,11 +211,13 @@ body{
   .artigos h1{
     font-family: var(--fonte-curva);
     padding: 15px;
+    font-weight: normal;
   }
 
   .artigos p{
     font-family: var(--fonte-texto);
     padding: 15px;
+    
   }
    
 
