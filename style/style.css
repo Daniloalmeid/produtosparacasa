@@ -364,6 +364,11 @@ main{
   }
   .imgpreco{
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.525);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .textoanuncio{
     padding: 10px;
   }
 
