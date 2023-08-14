@@ -378,10 +378,26 @@ main{
     padding: 10px;
   }
 
+  @media screen and (min-width: 880px) {
+    .container_destaque {
+        max-height: 330px;
+    }
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 767px) {
+    .container_destaque {
+        max-height: 630px;
+    }
+}
+
+
+
   .container_destaque {
-    background-color: white;
-    max-height: 330px; /* Defina a altura máxima desejada */
     overflow-y: scroll; /* Permite a rolagem vertical quando necessário */
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
 }
 
   .destaque{
