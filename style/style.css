@@ -181,9 +181,7 @@ main{
     }
   }
 .artigos{
-    padding: 10px
-    
-    
+    background-color: red;
 }
 
 
@@ -196,6 +194,8 @@ main{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.468);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.285);
     
   }
   
@@ -226,6 +226,7 @@ main{
     padding: 10px;
     margin: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
   }
 
   .imgamazon{
