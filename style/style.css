@@ -308,6 +308,7 @@ main{
   .container-noticias{
     padding: 10px;
     margin: 10px;
+   
   }
   .item-noticias{
     background-color: white;
@@ -318,6 +319,8 @@ main{
     flex-wrap: wrap;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.244);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.226);
+   
     
 
   }
