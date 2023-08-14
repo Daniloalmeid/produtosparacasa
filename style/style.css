@@ -325,6 +325,18 @@ main{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.226);
    }
 
+   .item-noticias h1{
+    font-family: var(--fonte-curva);
+    font-weight: normal;
+    padding: 10px;
+   }
+
+   .item-noticias p{
+    font-family:var(--fonte-texto);
+    padding: 10px;
+    text-justify: initial;
+   }
+
 .amazon{
    display: flex;
    align-items:center;
