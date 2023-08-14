@@ -417,4 +417,22 @@ main{
     padding: 10px;
   }
 
+/* Estilos para telas pequenas */
+@media screen and (max-width: 767px) {
+  .imgdestaque {
+        width: 130px;
+    }
+    .destaque-anuncios {
+      max-height: 170px;
+     
+  }
+
+  .destaque-anuncios p {
+    display: none;
+   
+}
+
+
+}
+
   
