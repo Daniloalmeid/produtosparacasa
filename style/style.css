@@ -264,7 +264,7 @@ main{
   
   .item-noticias{
     flex: 1;
-    max-width: calc(70% - 10px);
+    max-width: calc(100% - 10px);
   
   }
   
@@ -283,70 +283,7 @@ main{
   
   
   
-   .leiamais{
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    text-decoration: none;
-    color: blue; /* Ou a cor desejada para o link */
-    font-weight: bold;
-   }
-  
-  
-   
-  
-  
-  /*.container {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-  }
-  
-  .column {
-    width: 30%; /* Ajuste a largura das colunas conforme necessário 
-  
-  }
-  
-  .imgantigas{
-   width: 200px;
-   height: 200px;
-   background-color: #080f0f;
-  }
-  
-  .noticiasantigas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px; 
-  }
-  
-  .containernoticiasantigas {
-    display: flex;
-    justify-content: space-between;
-  
-    padding: 60px;
-  }
-  
-  .containernoticiasantigas h1 {
-    color: var(--cor2);
-    display:grid;
-  
-  } 
-  .imgnoticias{
-   padding: 10px;
-   text-align: center;
-   display: block;
-   margin: 0 auto;
-    
-  }
-  
-  
-  
-  
-  
-  
-  
+
   
   
   /* Estilos para a tela média */
@@ -366,10 +303,24 @@ main{
       order: -1; /* Coloca a coluna em destaque antes das demais na ordem */
       background-color: #f7f7f7; /* Adicione a cor de destaque aqui */
     }
-  
-    
-    
   } 
+
+  .container-noticias{
+    padding: 10px;
+    margin: 10px;
+  }
+  .item-noticias{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.244);
+    
+
+  }
    
 
   
