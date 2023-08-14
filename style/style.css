@@ -186,7 +186,10 @@ main{
   .column-right {
     flex: 2;
     margin: 5px;
-    background-color: rgba(153, 205, 50, 0.788);
+    background-color: rgba(128, 128, 128, 0.249);
+    padding: 10px;
+    margin-top: 10px;
+    
     
   }
     
@@ -320,9 +323,19 @@ main{
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.244);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.226);
-   
-    
+   }
 
+.amazon{
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+
+  .imgamazon{
+    width: 100%;
+    margin-top: 10px;
+ 
   }
    
 
