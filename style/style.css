@@ -378,6 +378,12 @@ main{
     padding: 10px;
   }
 
+  .container_destaque {
+    background-color: white;
+    max-height: 330px; /* Defina a altura máxima desejada */
+    overflow-y: scroll; /* Permite a rolagem vertical quando necessário */
+}
+
   .destaque{
     display: flex;
     align-items: center;
@@ -385,6 +391,8 @@ main{
     flex-wrap: wrap;
     background-color: white;
     border-radius: 20px;
+    overflow: auto;
+    
     
 
   }
