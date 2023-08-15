@@ -187,7 +187,7 @@ main{
   .column-right {
     flex: 1.5;
     margin: 5px;
-    background-color: rgba(128, 128, 128, 0.249);
+    background-color: var(--cor0);
     padding: 10px;
     margin-top: 10px;
     
@@ -456,6 +456,7 @@ main{
     
     
     
+    
 }
 .amazon img{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.152); 
@@ -466,6 +467,10 @@ main{
 .amazon h2,p{
     color: black;
     padding: 10px;
+}
+
+.amazon h2{
+  font-size: 1.2rem;
 }
 
 .aamazon{
@@ -485,6 +490,15 @@ main{
 .amazon p:hover{
     text-decoration: underline;
 }
+
+.ulcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Define três colunas de tamanho igual */
+  gap: 20px; /* Espaçamento entre as colunas */
+  background-color: red;
+}
+
+
 
 
   
