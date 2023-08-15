@@ -339,7 +339,7 @@ main{
     text-justify: initial;
    }
 
-.amazon{
+.amazon2{
    display: flex;
    align-items:center;
    justify-content: center;
@@ -349,21 +349,21 @@ main{
    border: 1px solid black;
    margin-bottom: 10px;
    margin-left: 10px;
-   
+    
   }
 
-  .imgamazon{
+  .imgamazon2{
     width: 100%;
     margin-top: 20px;
     border-radius: 20px;
  
   }
    
-  .imganuncio{
+  .imganuncio2{
     border-radius: 20px;
 
   }
-  .imgpreco{
+  .imgpreco2{
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.525);
     margin-top: 10px;
@@ -372,7 +372,7 @@ main{
     cursor: pointer;
   }
 
-  .imgpreco:hover{
+  .imgpreco2:hover{
     transform: scale(1.1);
   }
   .textoanuncio{
@@ -452,6 +452,7 @@ main{
 .amazon{
     width: 250px;
     padding: 10px;
+    
     
     
     
