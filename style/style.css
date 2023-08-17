@@ -558,10 +558,19 @@ background-color: var(--cor1);
 
 .ulfooter{
   margin: 60px;
+
 }
 footer{
   background-color: var(--cor1);
 }
+
+.footer_copyright{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
 
 
 
