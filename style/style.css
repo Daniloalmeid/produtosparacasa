@@ -356,6 +356,7 @@ main{
     width: 100%;
     margin-top: 20px;
     border-radius: 20px;
+    background-color: white;
  
   }
    
@@ -491,6 +492,14 @@ main{
     text-decoration: underline;
 }
 
+.h1casajardim{
+  background-color: var(--cor1);
+  color: white;
+  text-align: center;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.471);
+  padding: 10px;
+}
+
 .ulcontainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Define três colunas de tamanho igual */
@@ -524,6 +533,20 @@ margin: 40px;
   font-family: var(--fonte-curva);
   color: green;
 }
+
+@media screen and (max-width: 767px) {
+  .ulcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+     
+  }
+}
+
+
+
+
 
 
 
