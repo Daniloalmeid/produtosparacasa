@@ -299,26 +299,21 @@ main{
 
 
 /* Estilos para telas pequenas */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .imagem-grande {
       display: none; /* Ocultar a imagem grande em telas pequenas */
   }
-
-  .imagem-pequena {
-      background-image: url('../imagens/artigos/artigo1p.jpg');
-      background-size: cover;
-     
-      /* Outras propriedades de estilo */
-  }
 }
 
-@media (min-width: 800px) {
+  
+
+@media (min-width: 900px) {
   .imagem-grande {
     
   }
 
   .imagem-pequena {
-      background-image: url('../imagens/artigos/artigo1g.jpg');
+      
       background-size: cover;
       display: none;
      
