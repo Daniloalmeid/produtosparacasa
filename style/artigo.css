@@ -329,12 +329,27 @@ main{
     list-style-type: none;
     background-color: white;
     padding: 10px;
-  
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.244);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.226);
     margin-top: 20px;
    }
+
+   .item-noticias h4{
+    padding: 20px;
+    font-family: var(--fonte-texto2);
+    font-style: italic;
+    width: 70%;
+    font-size: 1.3rem;
+    
+   }
+
+   @media (max-width: 900px) {
+    .item-noticias h4 {
+        width: 100%; 
+    }
+  }
+
 
    .linknoticias{
     display: flex;
@@ -347,12 +362,16 @@ main{
     font-family: var(--fonte-curva);
     font-weight: normal;
     padding: 10px;
+    font-size: 2rem;
    }
 
    .item-noticias p{
+    width: 70%;
     font-family:var(--fonte-texto);
     padding: 10px;
     text-justify: initial;
+    font-size: 1.5rem;
+    
    }
 
 .amazon2{
