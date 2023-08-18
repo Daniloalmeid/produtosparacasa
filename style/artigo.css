@@ -401,13 +401,6 @@ main{
 
   }
 
-  .imgamazon2{
-    width: 100%;
-    margin-top: 20px;
-    border-radius: 20px;
-    background-color: white;
- 
-  }
    
   .imganuncio2{
     border-radius: 20px;
@@ -529,19 +522,6 @@ main{
 
 .amazon h2{
   font-size: 1.2rem;
-}
-
-.aamazon{
-    text-decoration: none;
-}
-.preco{
-    border-radius: 10px;
-}
-
-.preco:hover{
-    color: white;
-    transform: scale(1.1);
-    transition: transform 0.6s; 
 }
 
 .h2amazon:hover,
