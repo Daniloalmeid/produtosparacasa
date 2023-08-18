@@ -374,11 +374,24 @@ main{
     
    }
 
+  
+
    @media (max-width: 700px){
     .item-noticias p{
       width: 100%;
     }
    }
+
+   .imgamazon2{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+ 
+  }
+
+
+
 
 .amazon2{
   display: flex;
@@ -490,6 +503,13 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.amazon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .amazon iframe{
