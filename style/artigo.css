@@ -144,7 +144,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin: 5px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   
   }
@@ -381,16 +381,24 @@ main{
    }
 
 .amazon2{
-   display: flex;
-   align-items:center;
-   justify-content: center;
-   flex-wrap: wrap;
-   background-color: white;
-   padding: 10px;
-   border: 1px solid black;
-   margin-bottom: 10px;
-   margin-left: 10px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-left: 10px;
     
+  }
+
+  .amazon2 iframe{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
   }
 
   .imgamazon2{
@@ -491,15 +499,23 @@ main{
 
 }
 
-.amazon{
-    width: 250px;
-    padding: 10px;
-    
-    
-    
-    
-    
+.amazon iframe{
+   padding: 20px;
 }
+
+.anunciotexto{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.anunciotexto iframe{
+  padding: 20px;
+}
+
+
 .amazon img{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.152); 
   cursor: pointer;
