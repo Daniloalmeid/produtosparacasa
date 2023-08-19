@@ -407,9 +407,9 @@ main{
   }
 
   .amazon2 iframe{
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 
   }
@@ -513,7 +513,9 @@ main{
 }
 
 .amazon iframe{
-   padding: 20px;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .anunciotexto{
@@ -525,7 +527,9 @@ main{
 }
 
 .anunciotexto iframe{
-  padding: 20px;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 

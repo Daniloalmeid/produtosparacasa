@@ -459,9 +459,9 @@ main{
   }
 
   .amazon2 iframe{
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .amazon{
@@ -472,7 +472,9 @@ main{
   }
 
 .amazon iframe{
-  padding: 20px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .amazon2 iframe{
