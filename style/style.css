@@ -355,14 +355,11 @@ main{
  
   }
    
-<<<<<<< Updated upstream
-  .imganuncio2{
-=======
+  .imganuncio2
   .imganuncio{
     border-radius: 20px;
   }
   .imgpreco{
->>>>>>> Stashed changes
     border-radius: 20px;
 
   }
