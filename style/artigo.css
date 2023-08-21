@@ -469,6 +469,10 @@ main{
     
 
   }
+  .h4textolink{
+    text-align: left;
+
+  }
 
   .destaque-anuncios{
     padding: 10px;
