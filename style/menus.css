@@ -462,12 +462,6 @@ main{
     
   }
 
-  .amazon2 iframe{
-    padding: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-
   .amazon{
     display: flex;
     align-items: center;
@@ -482,9 +476,9 @@ main{
 }
 
 .amazon2 iframe{
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .amazon img{
@@ -549,7 +543,7 @@ margin: 40px;
 .ul1 li,
 .ul2 li,
 .ul3 li{
-  padding: 10px;
+  padding: 5px;
   color: black
   
   
