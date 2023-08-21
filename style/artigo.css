@@ -587,10 +587,11 @@ margin: 40px;
 .ul2 li,
 .ul3 li{
   padding: 5px;
-  color: black
-  
-  
+  color: black 
+}
 
+.pcor{
+  color: red;
   
 }
 .ulcontainer h1{
