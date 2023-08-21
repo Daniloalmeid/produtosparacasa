@@ -617,6 +617,13 @@ background-color: var(--cor1);
 
 }
 
+.ulcontainer2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Define três colunas de tamanho igual */
+  gap: 20px; /* Espaçamento entre as colunas */
+  background-color: var(--cor1);
+}
+
 .ulfooter{
   margin: 60px;
 

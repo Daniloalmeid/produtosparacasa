@@ -589,14 +589,11 @@ background-color: var(--cor1);
 
 }
 
-@media screen and (max-width: 767px) {
-  .ulfooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-     
-  }
+.ulcontainer2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Define três colunas de tamanho igual */
+  gap: 20px; /* Espaçamento entre as colunas */
+  background-color: var(--cor1);
 }
 footer{
   background-color: var(--cor1);
