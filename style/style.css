@@ -139,6 +139,21 @@ main{
     
 }
 
+
+  
+
+
+img.redes1{
+  position: relative;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  left: -910%;
+  top: 17px;
+}
+
+
+
 /* Main */
 .container {
     display: flex;
